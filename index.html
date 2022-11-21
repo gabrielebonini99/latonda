@@ -295,17 +295,18 @@
       <h3>Invia un messaggio</h3>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" novalidate>
+      <form name="sentMessage" id="contactForm" action="https://api.staticforms.xyz/submit" method="post">
+      <input type="hidden" name="accessKey" value="f47dd9af-f0dc-4923-b3c4-f3ce9cf4823e">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Nome" required="required">
+              <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
