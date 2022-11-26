@@ -2,3 +2,6 @@ a#CybotCookiebotDialogPoweredbyCybot,
 div#CybotCookiebotDialogPoweredByText {
   display: none;
 }
+.CybotCookiebotDialogBodyBottomWrapper {
+  display: none;
+}
