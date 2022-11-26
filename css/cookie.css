@@ -5,3 +5,6 @@ div#CybotCookiebotDialogPoweredByText {
 div.CybotCookiebotDialogBodyBottomWrapper {
   display: none !important;
 }
+#CybotCookiebotDialogBodyContentTitle:after {
+  display: none;
+}
