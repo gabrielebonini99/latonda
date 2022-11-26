@@ -1,6 +1,6 @@
 a#CybotCookiebotDialogPoweredbyCybot,
 div#CybotCookiebotDialogPoweredByText {
-  display: none;
+  display: none !important;
 }
 div.CybotCookiebotDialogBodyBottomWrapper {
   display: none !important;
