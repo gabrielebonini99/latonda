@@ -2,9 +2,6 @@ a#CybotCookiebotDialogPoweredbyCybot,
 div#CybotCookiebotDialogPoweredByText {
   display: none;
 }
-div#CybotCookiebotDialogBodyBottomWrapper {
-  display: none !important;
-}
 #CybotCookiebotDialogBodyContentTitle:after {
-  display: none;
+  display: none !important;
 }
