@@ -2,7 +2,7 @@ a#CybotCookiebotDialogPoweredbyCybot,
 div#CybotCookiebotDialogPoweredByText {
   display: none;
 }
-div.CybotCookiebotDialogBodyBottomWrapper {
+div#CybotCookiebotDialogBodyBottomWrapper {
   display: none !important;
 }
 #CybotCookiebotDialogBodyContentTitle:after {
