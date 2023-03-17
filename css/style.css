@@ -171,7 +171,11 @@ a {
  border-bottom-color: #d4a465;
 }
 
-.store {
+.chi-siamo {
+ display: none;
+}
+
+.menu {
  display: none;
 }
 
