@@ -68,6 +68,17 @@
  font-size: 18px;
 }
 
+.image-group {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 10px;
+}
+
+.image-group img {
+ width: 100%;
+ height: 250px;
+}
+
 .social {
  display: flex;
  justify-content: center;
