@@ -204,12 +204,6 @@ a {
  padding-top: 25px;
 }
 
-form {
- width: 100%;
- min-width: 90px;
- margin-top: 50px;
-}
-
 form input, form textarea {
  width: 100%;
  margin: 10px 0;
