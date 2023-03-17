@@ -56,14 +56,6 @@
  padding-right: 100px;
 }
 
-.first {
- order: 1;
-}
-
-.second {
- order: 2;
-}
-
 .photo-one {
  display: block;
  min-height: 400px;
