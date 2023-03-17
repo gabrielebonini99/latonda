@@ -64,26 +64,22 @@
  order: 2;
 }
 
-.store {
+.photo1 {
  display: block;
  min-height: 400px;
  background-image: url("../img/photo1.jpg");
  background-size: cover;
 }
 
+.photo2 {
+ display: block;
+ min-height: 400px;
+ background-image: url("../img/photo2.jpg");
+ background-size: cover;
+}
+
 .btn-info {
  font-size: 18px;
-}
-
-.image-group {
- display: grid;
- grid-template-columns: 1fr 1fr;
- grid-gap: 10px;
-}
-
-.image-group img {
- width: 100%;
- height: 250px;
 }
 
 .social {
