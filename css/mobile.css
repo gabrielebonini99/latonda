@@ -64,14 +64,14 @@
  order: 2;
 }
 
-.photo1 {
+.photo-one {
  display: block;
  min-height: 400px;
  background-image: url("../img/photo1.jpg");
  background-size: cover;
 }
 
-.photo2 {
+.photo-two {
  display: block;
  min-height: 400px;
  background-image: url("../img/photo2.jpg");
