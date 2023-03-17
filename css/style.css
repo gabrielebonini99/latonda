@@ -199,14 +199,7 @@ a {
 }
 
 .image-group {
- display: grid;
- grid-template-columns: 1fr 1fr;
- grid-gap: 10px;
-}
-
-.image-group img {
- width: 100%;
- height: 250px;
+ display: none;
 }
 
 .social {
