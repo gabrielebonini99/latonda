@@ -204,13 +204,13 @@ a {
  padding-top: 25px;
 }
 
-.contact-us form {
+form {
  width: 100%;
  min-width: 90px;
  margin-top: 50px;
 }
 
-.input, .text-area {
+form input, form textarea {
  width: 100%;
  margin: 10px 0;
  padding: 10px 10px;
@@ -221,11 +221,11 @@ a {
  color: #878787;
 }
 
-.input::placeholder, .text-area::placeholder {
+form input::placeholder, form textarea::placeholder {
  color: #878787;
 }
 
-.text-area {
+form textarea {
  height: 200px;
  resize: none;
 }
