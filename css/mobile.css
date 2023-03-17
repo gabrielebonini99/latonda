@@ -62,6 +62,8 @@
 
 .store {
  min-height: 400px;
+ background-image: url("../img/photo1.jpg");
+ background-size: cover;
 }
 
 .btn-info {
