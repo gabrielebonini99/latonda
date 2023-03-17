@@ -215,10 +215,6 @@ form input, form textarea {
  color: #878787;
 }
 
-form input::placeholder, form textarea::placeholder {
- color: #878787;
-}
-
 form textarea {
  height: 200px;
  resize: none;
