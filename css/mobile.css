@@ -34,8 +34,16 @@
  padding: 0 20px;
 }
 
-.section {
+.section-one {
  padding: 100px 0;
+}
+
+.section-two {
+ padding: 100px 0;
+}
+
+.section-three {
+ padding: 90px 0;
 }
 
 .container {
