@@ -156,10 +156,6 @@ a {
  justify-content: center;
 }
 
-.nav .overlay ul li {
- text-transform: uppercase;
-}
-
 .nav .overlay ul li a {
  font-size: 20px;
  display: block;
