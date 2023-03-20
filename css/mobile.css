@@ -81,12 +81,6 @@
  font-size: 18px;
 }
 
-.social {
- display: flex;
- justify-content: center;
- column-gap: 20px;
-}
-
 #widgets {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
