@@ -4,6 +4,8 @@
 
 .logo {
  display: block;
+ font-size: 20px;
+ font-weight: 300;
 }
 
 .nav {
