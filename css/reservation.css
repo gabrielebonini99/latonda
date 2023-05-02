@@ -55,8 +55,12 @@ form .input-box span.details {
  border: 1px solid #ccc;
 }
 
-.user-details .input-box input:focus, .user-details .input-box input:valid {
- border-color: #000;
+.user-details .input-box input:valid {
+ border-color: #008000;
+}
+
+.user-details .input-box input:invalid {
+ border-color: #ff0000;
 }
 
 form .button {
