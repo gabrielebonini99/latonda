@@ -115,10 +115,6 @@ form .category {
  width: 100%;
 }
 
-.user-details::-webkit-scrollbar {
- width: 5px;
-}
-
 }
 
 @media (max-width: 459px) {
