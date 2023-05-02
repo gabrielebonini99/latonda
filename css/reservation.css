@@ -111,16 +111,4 @@ form .user-details .input-box {
  width: 100%;
 }
 
-form .category {
- width: 100%;
-}
-
-}
-
-@media (max-width: 459px) {
-
-.container .content .category {
- flex-direction: column;
-}
-
 }
