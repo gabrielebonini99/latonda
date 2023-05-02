@@ -93,11 +93,6 @@ form .category {
  width: 100%;
 }
 
-.content form .user-details {
- max-height: 300px;
- overflow-y: scroll;
-}
-
 .user-details::-webkit-scrollbar {
  width: 5px;
 }
