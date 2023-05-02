@@ -70,6 +70,7 @@ form .user-details .textarea-box {
  outline: none;
  font-size: 16px;
  border-radius: 5px;
+ padding-top: 15px;
  padding-left: 15px;
  border: 1px solid #ccc;
 }
