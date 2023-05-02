@@ -59,10 +59,6 @@ form .input-box span.details {
  border-color: #008000;
 }
 
-.user-details .input-box input:invalid {
- border-color: #ff0000;
-}
-
 form .button {
  height: 45px;
  margin: 35px 0;
