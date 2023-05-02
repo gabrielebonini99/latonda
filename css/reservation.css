@@ -59,6 +59,21 @@ form .input-box span.details, form .textarea-box span.details {
  border-color: #008000;
 }
 
+form .user-details .textarea-box {
+ width: 100%;
+}
+
+.user-details .textarea-box textarea {
+ height: 135px;
+ width: 100%;
+ resize: none;
+ outline: none;
+ font-size: 16px;
+ border-radius: 5px;
+ padding-left: 15px;
+ border: 1px solid #ccc;
+}
+
 form .button {
  height: 45px;
  margin: 35px 0 0;
