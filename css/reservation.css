@@ -74,7 +74,7 @@ form .button input {
  font-weight: 500;
  letter-spacing: 1px;
  cursor: pointer;
- background-color: #000;
+ background: linear-gradient(95deg, black, grey);
 }
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
