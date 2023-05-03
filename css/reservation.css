@@ -97,6 +97,13 @@ form .button input {
  font-weight: 500;
  letter-spacing: 1px;
  cursor: pointer;
+}
+
+form .button input .first {
+ background-color: #000;
+}
+
+form .button input .second {
  background: linear-gradient(95deg, black, grey);
 }
 
