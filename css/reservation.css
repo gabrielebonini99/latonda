@@ -99,11 +99,11 @@ form .button input {
  cursor: pointer;
 }
 
-form .button input .first {
+form .button input .one {
  background-color: #000;
 }
 
-form .button input .second {
+form .button input .two {
  background: linear-gradient(95deg, black, grey);
 }
 
