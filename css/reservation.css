@@ -83,7 +83,7 @@ form .user-details .textarea-box {
 
 form .button {
  height: 45px;
- margin: 50px 0 0;
+ width: calc(100% / 2 - 20px);
 }
 
 form .button input {
