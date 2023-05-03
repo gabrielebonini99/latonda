@@ -36,7 +36,7 @@ body {
 
 form .user-details .input-box {
  margin-bottom: 15px;
- width: calc(100% / 2 - 20px);
+ width: calc(100% / 2 - 5px);
 }
 
 form .input-box span.details, form .textarea-box span.details {
@@ -83,7 +83,7 @@ form .user-details .textarea-box {
 
 form .button {
  height: 45px;
- width: calc(100% / 2 - 20px);
+ width: calc(100% / 2 - 5px);
 }
 
 form .button input {
