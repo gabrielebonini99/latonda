@@ -75,6 +75,12 @@ form .user-details .textarea-box {
  border: 1px solid #ccc;
 }
 
+.content form .buttons {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
 form .button {
  height: 45px;
  margin: 50px 0 0;
