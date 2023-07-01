@@ -11,7 +11,7 @@ html {
 
 .bc[overlay="blur"] ~ body {
  overflow-x: hidden;
- transform: scale(1.1);
+ background-color: #141414;
 }
 
 .section {
