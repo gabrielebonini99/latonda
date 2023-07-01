@@ -9,11 +9,6 @@ html {
  scroll-behavior: smooth;
 }
 
-.bc[overlay="blur"] ~ body {
- overflow-x: hidden;
- background-color: #141414;
-}
-
 .section {
  padding: 54px 0 35px;
 }
