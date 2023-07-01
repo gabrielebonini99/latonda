@@ -9,6 +9,10 @@ html {
  scroll-behavior: smooth;
 }
 
+.bc[overlay="blur"] ~ body {
+ overflow-x: hidden;
+}
+
 .section {
  padding: 54px 0 35px;
 }
