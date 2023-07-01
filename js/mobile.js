@@ -18,5 +18,3 @@ for(i = 0; i < navLinks.length; i++){
     var navlink = navLinks[i];
     navlink.addEventListener("click", toggleOverlay);
 }
-
-
