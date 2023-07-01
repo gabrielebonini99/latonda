@@ -19,6 +19,10 @@ a#CybotCookiebotDialogPoweredbyCybot, div#CybotCookiebotDialogPoweredByText {
  border-color: #141414 !important;
 }
 
+#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:hover {
+ opacity: 1;
+}
+
 #CybotCookiebotDialogBodyButtonDecline {
  border-color: #141414 !important;
 }
