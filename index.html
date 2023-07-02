@@ -9,12 +9,51 @@
 <link rel=icon href=img/favicon.ico>
 <link rel=stylesheet href=css/style.css>
 <link rel=stylesheet href=css/mobile.css media="screen and (min-width:1360px)">
+<link rel=stylesheet href=css/cookie.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:300,400">
 <script src=js/mobile.min.js defer></script>
 <script src=https://unpkg.com/@botpoison/browser defer></script>
+<script src=js/cookie.min.js defer></script>
 </head>
 <body>
-<script>(function(f,n) { n = document.createElement('script'); n.src = 'https://fcdn.answerly.io/fn.js'; n.setAttribute('data-companyId', f); document.getElementsByTagName('html')[0].insertAdjacentElement('beforeend', n); })('9997e9cf-f871-4b9c-b56a-eae356d319cb');</script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Questo sito web utilizza i cookie per assicurarti una migliore esperienza di navigazione.",
+       link: "Maggiori informazioni",
+       allow: "Accetto",
+       deny: "Rifiuto",
+       href: "https://ristorantepizzerialatonda.com/dichiarazione-dei-cookie.html"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+(function(f,n) { n = document.createElement('script'); n.src = 'https://fcdn.answerly.io/fn.js'; n.setAttribute('data-companyId', f); document.getElementsByTagName('html')[0].insertAdjacentElement('beforeend', n); })('9997e9cf-f871-4b9c-b56a-eae356d319cb');
+
+}
+</script>
 <div id=home>
 <div class=menu>
 <span class=bar>
