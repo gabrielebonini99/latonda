@@ -1,137 +1,44 @@
-* {
- margin: 0;
- box-sizing: border-box;
+#widgets {
+ background-color: #141414;
+ padding: 50px 0;
 }
 
-html {
- font-family: "Poppins", sans-serif;
-}
-
-body {
- height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 10px;
-}
-
-.bc[overlay="blur"] ~ body {
- overflow-x: hidden;
-}
-
-.container {
- max-width: 700px;
- width: 100%;
- padding: 0 30px;
-}
-
-.container .title {
- font-size: 25px;
- font-weight: 500;
- position: relative;
-}
-
-.content form .user-details {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- margin: 25px 0 12px;
-}
-
-form .user-details .input-box {
+#widgets h4 {
+ text-align: center;
+ font-size: 23px;
+ font-weight: 400;
  margin-bottom: 15px;
- width: calc(100% / 2 - 5px);
+ color: #d4a465;
 }
 
-form .input-box span.details, form .textarea-box span.details {
- display: block;
- font-weight: 500;
- margin-bottom: 5px;
-}
-
-.user-details .input-box input {
- height: 45px;
- width: 100%;
- outline: none;
- font-size: 16px;
- border-radius: 5px;
- padding-left: 15px;
- border: 1px solid #ccc;
-}
-
-.user-details .input-box input:valid {
- border-color: #008000;
-}
-
-form .user-details .textarea-box {
- width: 100%;
-}
-
-.user-details .textarea-box textarea {
- height: 135px;
- width: 100%;
- resize: none;
- outline: none;
- font-size: 16px;
- border-radius: 5px;
- padding-top: 15px;
- padding-left: 15px;
- border: 1px solid #ccc;
-}
-
-.content form .buttons {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
-}
-
-form .button {
- height: 45px;
- width: calc(100% / 2 - 5px);
- margin-top: 30px;
-}
-
-form .button input {
- height: 100%;
- width: 100%;
- border-radius: 5px;
- border: none;
- color: #fff;
+#widgets p {
+ text-align: center;
  font-size: 18px;
- font-weight: 500;
- letter-spacing: 1px;
- cursor: pointer;
+ font-weight: 300;
+ color: #fff;
 }
 
-.button-one {
- background-color: #000;
+#payments {
+ background-color: #141414;
+ text-align: center;
+ padding: 20px 0 50px;
 }
 
-.button-two {
- background: linear-gradient(95deg, #000, #808080);
+#footer {
+ background-color: #141414;
+ padding: 20px 0 50px;
 }
 
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
- -webkit-appearance: none;
- margin: 0;
+#footer p {
+ text-align: center;
+ font-size: 18px;
+ color: #fff;
 }
 
-input[type=number] {
- -moz-appearance: textfield;
+#footer a {
+ color: #808080;
 }
 
-@media (max-width: 584px) {
-
-.container {
- max-width: 100%;
-}
-
-form .user-details .input-box {
- width: 100%;
-}
-
-form .button {
- width: 100%;
-}
-
+#footer a:hover {
+ opacity: 0.8;
 }
