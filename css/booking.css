@@ -108,6 +108,11 @@ a {
  border-bottom-color: #d4a465;
 }
 
+.booking {
+ padding-top: 180px;
+ padding-bottom: 100px;
+}
+
 #widgets {
  background-color: #141414;
  padding: 50px 0;
