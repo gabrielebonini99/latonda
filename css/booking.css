@@ -8,6 +8,101 @@ body {
  font-size: 10px;
 }
 
+.menu {
+ padding: 20px 25px;
+ position: fixed;
+ top: 30px;
+ right: 30px;
+ background-color: rgba(0, 0, 0, .5);
+ z-index: 1000;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+.menu .bar, .menu .bar::before, .menu .bar::after {
+ content: "";
+ position: absolute;
+ height: 2px;
+ width: 40px;
+ background-color: #fff;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+ transition: 650ms;
+}
+
+.menu .bar::before {
+ top: -20px;
+}
+
+.menu .bar::after {
+ top: 11px;
+}
+
+.active .bar {
+ background: transparent;
+}
+
+.active .bar::before {
+ transform: rotate(45deg);
+}
+
+.active .bar::after {
+ transform: rotate(-45deg);
+}
+
+.active .bar::before, .active .bar::after {
+ top: 0;
+}
+
+.logo {
+ display: none;
+}
+
+.nav {
+ width: 100%;
+ line-height: 60px;
+}
+
+.overlay {
+ background-color: rgba(0, 0, 0, .95);
+ position: fixed;
+ right: 0;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ z-index: 1;
+ transition: opacity 650ms;
+ transform: scale(0);
+ opacity: 0;
+}
+
+.overlay.menu-open {
+ transform: scale(1);
+ opacity: 1;
+}
+
+.nav .overlay ul {
+ position: relative;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.nav .overlay ul li a {
+ font-size: 20px;
+ display: block;
+ transition: all 650ms;
+}
+
+.nav .overlay ul li a:hover, .nav .overlay ul li a .active:hover {
+ color: #d4a465;
+ border-bottom-color: #d4a465;
+}
+
 #widgets {
  background-color: #141414;
  padding: 50px 0;
