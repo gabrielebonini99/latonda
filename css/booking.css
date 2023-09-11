@@ -155,6 +155,43 @@ a {
 
 @media screen and (min-width: 1360px) {
 
+.menu {
+ display: none;
+}
+
+.logo {
+ display: block;
+ font-size: 20px;
+ font-weight: 300;
+}
+
+.nav {
+ display: flex;
+ position: fixed;
+ padding: 10px 100px;
+ justify-content: space-between;
+ background-color: #141414;
+}
+
+.nav .overlay {
+ position: initial;
+ opacity: initial;
+ transform: initial;
+ background-color: #141414;
+}
+
+.nav .overlay ul {
+ flex-direction: row;
+ list-style: none;
+}
+
+.nav .overlay ul li a {
+ font-size: 15px;
+ letter-spacing: 1px;
+ margin-right: -1px;
+ padding: 0 20px;
+}
+
 #widgets {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
