@@ -9,7 +9,7 @@ body {
 }
 
 .cf[overlay="blur"] ~ body {
- filter: opacity(0);
+ filter: opacity(0) !important;
 }
 
 a {
