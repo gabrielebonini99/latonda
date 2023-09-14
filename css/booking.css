@@ -8,6 +8,10 @@ body {
  font-size: 10px;
 }
 
+.cf[overlay="blur"] ~ body {
+ filter: opacity(0);
+}
+
 a {
  text-decoration: none;
  color: #fff;
