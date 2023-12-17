@@ -17,6 +17,10 @@ iframe.db.dd.de[overlay="blur"] ~ body {
  overflow-x: hidden;
 }
 
+.dd[overlay=blur]~body, .dd[overlay=color]~body {
+ pointer-events: auto;
+}
+
 .section {
  padding: 54px 0 35px;
 }
