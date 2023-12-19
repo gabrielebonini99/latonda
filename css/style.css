@@ -21,6 +21,10 @@ body {
  pointer-events: auto !important;
 }
 
+div#gt_float_wrapper {
+ z-index: 10000103;
+}
+
 .section {
  padding: 54px 0 35px;
 }
