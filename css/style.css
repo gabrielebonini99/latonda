@@ -22,7 +22,7 @@ body {
 }
 
 div#gt_float_wrapper {
- z-index: 10000103;
+ z-index: 10000104 !important;
 }
 
 .section {
