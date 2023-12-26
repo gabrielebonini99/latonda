@@ -2,6 +2,10 @@
  display: none !important;
 }
 
+#CybotCookiebotDialogPoweredByText {
+ display: none !important;
+}
+
 .CookiebotWidget-main-logo {
  display: none !important;
 }
