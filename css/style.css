@@ -233,7 +233,7 @@ form textarea {
 }
 
 #widgets {
- background-color: #141414;
+ background-color: #000;
  padding: 50px 0;
 }
 
@@ -253,13 +253,13 @@ form textarea {
 }
 
 #payments {
- background-color: #141414;
+ background-color: #000;
  text-align: center;
  padding: 20px 0 50px;
 }
 
 #footer {
- background-color: #141414;
+ background-color: #000;
  padding: 20px 0 50px;
 }
 
@@ -294,7 +294,7 @@ form textarea {
  position: fixed;
  padding: 10px 100px;
  justify-content: space-between;
- background-color: #141414;
+ background-color: #000;
 }
 
 .nav .overlay {
