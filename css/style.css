@@ -299,9 +299,6 @@ form textarea {
 
 .nav .overlay {
  position: initial;
- opacity: initial;
- transform: initial;
- background-color: #141414;
 }
 
 .nav .overlay ul {
