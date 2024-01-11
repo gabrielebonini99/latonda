@@ -299,6 +299,8 @@ form textarea {
 
 .nav .overlay {
  position: relative;
+ transform: none;
+ opacity: 1;
 }
 
 .nav .overlay ul {
