@@ -44,15 +44,15 @@ a {
 .btn {
  display: inline-block;
  transition: 650ms;
- border-radius: 3px;
+ border-radius: 5px;
 }
 
 .btn-info {
  font-size: 18px;
  padding: 10px;
  color: #d4a465;
- border-bottom: 2px solid #d4a465;
- margin: 20px 0 40px 0;
+ border: 1px solid #d4a465;
+ margin: 40px 0;
 }
 
 .btn-info:hover {
