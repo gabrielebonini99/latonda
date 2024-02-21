@@ -56,14 +56,14 @@ a {
  background-color: #d4a465;
 }
 
-.custom-font {
+.title {
  color: #d4a465;
  font-size: 65px;
  font-weight: 300;
  line-height: 1;
 }
 
-.custom-font-secondary {
+.subtitle {
  color: #4d4d4d;
  font-size: 25px;
  font-weight: 300;
