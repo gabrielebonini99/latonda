@@ -41,13 +41,10 @@ a {
  color: #fff;
 }
 
-.btn {
+.button {
  display: inline-block;
  transition: 650ms;
  border-radius: 5px;
-}
-
-.btn-info {
  font-size: 18px;
  padding: 10px;
  color: #d4a465;
@@ -55,7 +52,7 @@ a {
  margin: 40px 0;
 }
 
-.btn-info:hover {
+.button:hover {
  color: #fff;
  background-color: #d4a465;
 }
