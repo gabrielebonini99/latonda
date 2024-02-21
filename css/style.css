@@ -32,7 +32,7 @@ body {
 }
 
 .section a {
- text-decoration: underline;
+ text-decoration: none;
  color: #d4a465;
 }
 
