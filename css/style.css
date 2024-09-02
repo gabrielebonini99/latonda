@@ -12,6 +12,10 @@ body {
  font-size: 16px;
 }
 
+.dl[overlay=blur]~body, .dl[overlay=color]~body {
+ pointer-events: auto !important;
+}
+
 .section {
  padding: 54px 0 35px;
 }
