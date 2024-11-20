@@ -157,6 +157,11 @@ p {
  margin-right: 15px;
 }
 
+#footer .social a.italian {
+ background: url(../img/italian.png) no-repeat;
+ margin-right: 15px;
+}
+
 #footer .social a.facebook {
  background: url(../img/facebook.png) no-repeat;
  margin-right: 15px;
