@@ -308,6 +308,10 @@ p {
  background: url(../img/instagram.png) no-repeat;
 }
 
+#footer-mobile {
+ display: none;
+}
+
 @media (max-width: 980px) {
 
 #services li {
@@ -332,6 +336,18 @@ p {
 
 .reviews li.middle {
  margin: 0;
+}
+
+}
+
+@media (max-width: 650px) {
+
+#footer {
+ display: none;
+}
+
+#footer-mobile {
+ display: block;
 }
 
 }
