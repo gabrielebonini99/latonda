@@ -81,6 +81,10 @@ p {
  text-decoration: none;
 }
 
+#header .nav-mobile {
+ display: none;
+}
+
 #menu {
  width: 0;
 }
