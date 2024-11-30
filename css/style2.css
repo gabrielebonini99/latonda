@@ -296,13 +296,16 @@ margin: 0 5%;
 
 @media (max-width: 580px) {
 
-#header {
- height: 50px;
- line-height: 50px;
-}
-
 #header a.logo {
  left: 20px;
+}
+
+#header .nav {
+ display: none;
+}
+
+#header .nav-mobile {
+ display: block;
 }
 
 #banner .inner {
