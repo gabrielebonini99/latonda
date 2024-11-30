@@ -308,14 +308,18 @@ p {
  background: url(../img/instagram.png) no-repeat;
 }
 
-@media (max-width: 975px) {
+@media (max-width: 980px) {
 
-.reviews li {
- max-width: 30%;
+#services li {
+ width: 85%;
 }
 
-.reviews li.middle {
-margin: 0 5%;
+.left {
+ float: none;
+}
+
+.right {
+ float: none;
 }
 
 }
