@@ -259,29 +259,8 @@ p {
 
 @media (max-width: 650px) {
 
-#footer {
- display: none;
-}
-
-#footer-mobile {
- display: block;
- padding: 30px 20px;
- background-color: #000;
-}
-
-#footer-mobile p {
- font-size: 14px;
- color: #fff;
-}
-
-#footer-mobile a {
- color: #a2a2a2;
- text-decoration: none;
- transition: all 0.3s ease-in-out;
-}
-
-#footer-mobile a:hover {
- color: #cbcbcb;
+#footer p {
+ float: none;
 }
 
 }
@@ -381,6 +360,31 @@ p {
 
 .menu-item:hover {
  background-color: #1b1b1b;
+}
+
+#footer {
+ display: none;
+}
+
+#footer-mobile {
+ display: block;
+ padding: 30px 20px;
+ background-color: #000;
+}
+
+#footer-mobile p {
+ font-size: 14px;
+ color: #fff;
+}
+
+#footer-mobile a {
+ color: #a2a2a2;
+ text-decoration: none;
+ transition: all 0.3s ease-in-out;
+}
+
+#footer-mobile a:hover {
+ color: #cbcbcb;
 }
 
 }
