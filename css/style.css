@@ -238,25 +238,6 @@ p {
 
 }
 
-@media (max-width: 750px) { 
-
-.services li, .reviews li {
- width: 100%;
- max-width: 100%;
- float: none;
- margin: 0 0 30px !important;
-}
-
-.reviews li {
- max-width: 100%;
-}
-
-.reviews li.middle {
- margin: 0;
-}
-
-}
-
 @media (max-width: 650px) {
 
 #footer p {
