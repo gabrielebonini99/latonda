@@ -369,15 +369,4 @@ p {
  font-size: 2.6em;
 }
 
-#footer p.left, #footer p.right {
- display:block;
- width:100%;
- float:none;
- margin-bottom: 20px;
-}
-
-footer p:last-child {
- margin-bottom:0;
-}
-
 }
