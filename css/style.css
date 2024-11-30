@@ -196,32 +196,32 @@ p {
  color: #cbcbcb;
 }
 
-#footer .social {
+.social {
  padding-top: 5px;
 }
 
-#footer .social a {
+.social a {
  display: inline-block;
  width: 29px;
  height: 29px;
 }
 
-#footer .social a.english {
+.social a.english {
  background: url(../img/english.png) no-repeat;
  margin-right: 15px;
 }
 
-#footer .social a.italian {
+.social a.italian {
  background: url(../img/italian.png) no-repeat;
  margin-right: 15px;
 }
 
-#footer .social a.facebook {
+.social a.facebook {
  background: url(../img/facebook.png) no-repeat;
  margin-right: 15px;
 }
 
-#footer .social a.instagram {
+.social a.instagram {
  background: url(../img/instagram.png) no-repeat;
 }
 
@@ -265,6 +265,23 @@ p {
 
 #footer-mobile {
  display: block;
+ padding: 30px 20px;
+ background-color: #000;
+}
+
+#footer-mobile p {
+ font-size: 14px;
+ color: #fff;
+}
+
+#footer-mobile a {
+ color: #a2a2a2;
+ text-decoration: none;
+ transition: all 0.3s ease-in-out;
+}
+
+#footer-mobile a:hover {
+ color: #cbcbcb;
 }
 
 }
