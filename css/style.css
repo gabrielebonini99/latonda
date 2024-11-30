@@ -171,6 +171,7 @@ p {
 #banner {
  padding: 55px 0 75px;
  background-image: url(../img/banner.jpg);
+ background-repeat: no-repeat;
  margin-bottom: 75px;
 }
 
