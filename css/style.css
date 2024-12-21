@@ -47,7 +47,6 @@ p {
 
 #header {
  height: 84px;
- line-height: 84px;
  background-color: #000;
 }
 
@@ -59,6 +58,7 @@ p {
 #header .nav {
  position: absolute;
  right: 0;
+ padding-top: 33px;
 }
 
 #header .nav ul {
