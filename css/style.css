@@ -13,7 +13,7 @@ body {
  font-size: 16px;
 }
 
-.dl[overlay=blur]~body, .dl[overlay=color]~body {
+.fh[overlay=blur]~body, .fh[overlay=color]~body {
  pointer-events: auto !important;
 }
 
