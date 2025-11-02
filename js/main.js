@@ -1,5 +1,5 @@
 const popup = document.querySelector('.popup');
-const x = document.querySelector('.popup-content h1')
+const x = document.querySelector('.popup-content span')
 
 window.addEventListener('load', () => {
     popup.classList.add('showPopup');
@@ -8,4 +8,5 @@ window.addEventListener('load', () => {
 x.addEventListener('click', () => {
     popup.classList.remove('showPopup');
     popup.childNodes[1].classList.remove('showPopup');
+
 })
