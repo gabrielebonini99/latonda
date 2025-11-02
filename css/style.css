@@ -38,7 +38,15 @@ body {
  position: relative;
 }
 
-.popup h1 {
+.popup h4 {
+
+}
+
+.popup p {
+ margin-bottom: 0;
+}
+
+.popup span {
  position: absolute;
  top: 2rem;
  right: 2rem;
@@ -47,7 +55,7 @@ body {
  user-select: none;
 }
 
-.popup h1:active {
+.popup span:active {
  transform: scale(.9);
 }
 
@@ -414,6 +422,7 @@ p {
 }
 
 }
+
 
 
 
